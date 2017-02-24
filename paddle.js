@@ -1,27 +1,20 @@
-function Paddle(x, y) 
+function Paddle() 
 {
-  this.x = x;
-  this.y = y;
-  this.xdir = 0;
+  this.y = height - 60; //Paddle Y value
   this.ph = ph; //Paddle Height 
   this.pw = pw; //Paddle Width
 
   this.display = function() {
     fill(255, 0, 200, 150);
-    rect(this.x, this.y, this.pw, this.ph, 6);
+    rect(mouseX, this.y, this.pw, this.ph, 6);
   }
 
-  this.setDir = function(dir) {
-    this.xdir = dir;
-  }
-
-  this.move = function(dir) {
-    this.x += this.xdir*8;
-    if (this.x <= 0) {
-      this.x = 0;
+  this.bounds = function() {
+    if (mouseX + this.pw >= width) {
+      mouseX = width - this.pw;
     }
-    if (this.x + this.pw >= width) {
-      this.x = width - this.pw;
+    if (mouseX <= 0) {
+      mouseX = 0;
     }
   }
 }

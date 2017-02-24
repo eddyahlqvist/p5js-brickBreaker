@@ -12,7 +12,7 @@ function Ball(x, y)
   }
 
   this.move = function(dir) {
-    if (this.y + this.br >= paddle.y && this.x >= paddle.x && this.x <= paddle.x + paddle.pw) { //Check if the ball hits the paddle
+    if (this.y + this.br >= paddle.y && this.x >= mouseX && this.x <= mouseX + paddle.pw) { //Check if the ball hits the paddle
       this.speedY = -4;
     }
     if (this.x >= width - this.br) { //Check if the ball hits the right wall
@@ -31,7 +31,7 @@ function Ball(x, y)
       this.x += this.speedX;
       this.y += this.speedY;
     } else {
-      this.x = paddle.x + paddle.pw*0.7; //Ball starts on top of the paddle.
+      this.x = mouseX + paddle.pw*0.7; //Ball starts on top of the paddle.
       this.y = paddle.y - br;
       this.speedX = 4;
       this.speedY = -4;

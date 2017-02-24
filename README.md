@@ -1,2 +1,3 @@
 # p5js-brickBreaker
-Brick Breaker game in JavaScript that I'm working on
+
+Changing from steering the paddle with arrow keys to steering with the mouse

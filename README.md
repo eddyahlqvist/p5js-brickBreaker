@@ -1,6 +1,8 @@
 # p5js-brickBreaker
 Newest changes on top
 
+Added lives and game over functions.
+
 Bricks can now be destroyed.
 
 The ball can now bounce on bricks.

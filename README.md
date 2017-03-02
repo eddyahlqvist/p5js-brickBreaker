@@ -1,6 +1,8 @@
 # p5js-brickBreaker
 Newest changes on top
 
+Added score and a lives left display.
+
 Added lives and game over functions.
 
 Bricks can now be destroyed.

@@ -1,6 +1,8 @@
 # p5js-brickBreaker
 Newest changes on top
 
+Point HUD and better win/lose functions.
+
 Added score and a lives left display.
 
 Added lives and game over functions.

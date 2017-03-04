@@ -1,6 +1,8 @@
 # p5js-brickBreaker
 Newest changes on top
 
+Changes to paddle and ball movement.
+
 Point HUD and better win/lose functions.
 
 Added score and a lives left display.

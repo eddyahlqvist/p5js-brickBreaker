@@ -1,6 +1,8 @@
 # p5js-brickBreaker
 Newest changes on top
 
+Added temporary sound. Will improve later.
+
 Changes to paddle and ball movement.
 
 Point HUD and better win/lose functions.

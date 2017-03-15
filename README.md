@@ -1,6 +1,8 @@
 # p5js-brickBreaker
 Newest changes on top
 
+Project Status: Paused. But it's pretty much done.
+
 Added temporary sound. Will improve later.
 
 Changes to paddle and ball movement.
